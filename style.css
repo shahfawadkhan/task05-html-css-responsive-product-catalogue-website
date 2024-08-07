@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(244, 206, 13);
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.logo{
+    width: 15%;
+    height: 80px;
+    border: 1px solid rgb(59, 52, 52);
+    text-align: center;
+}
+.input{
+    width: 50%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input>input{
+    width: 80%;
+    height: 40px;
+    border: 1px solid black;
+    border-right: none;
+    
+}
+.input>img{
+    border: 1px solid black;
+    background-color: #fff;
+    border-left: none;
+}
+.icons{
+    width: 10%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
