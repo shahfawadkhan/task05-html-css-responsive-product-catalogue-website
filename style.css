@@ -3,10 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #nav-bar{
     width: 100%;
     height: 80px;
-    background-color: rgb(244, 206, 13);
+    background-color: rgb(51, 57, 56);
     display: flex;
     justify-content: space-evenly;
 
@@ -14,13 +15,13 @@
 .logo{
     width: 15%;
     height: 80px;
-    border: 1px solid rgb(59, 52, 52);
+    /* border: 1px solid rgb(59, 52, 52); */
     text-align: center;
 }
 .input{
     width: 50%;
     height: 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,21 +29,104 @@
 .input>input{
     width: 80%;
     height: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-right: none;
+    border: none;
+    outline: none;
     
 }
-.input>img{
-    border: 1px solid black;
-    background-color: #fff;
+.input-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    background-color: #e12828;
     border-left: none;
+    font-size: large;
+    height: 40px;
+    width: 40px;
 }
 .icons{
     width: 10%;
     height: 80px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2px;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.hero-section{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.all-categ{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(60, 57, 62);
+    /* border: 1px solid black; */
+    margin-left: 10px;
+    
+}
+.all-categ>ul{
+    margin-left: 20px;
+}
+.all-categ>ul li{
+    margin-top: 15px;
+    list-style-type: none;
+}
+.all-categ> h4{
+    background-color:crimson;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    color: white;
+}
+.all-categ>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.box2{
+    margin-left: 30px;
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    /* border: 1px solid black; */
+}
+.laptop-image{
+    position: relative;
+}
+.digital-glory{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    opacity: .8;
+    top: 45%;
+}
+.digital-glory>h3{
+    color: white;
+    opacity: 1;
+    letter-spacing: 10px;
+    text-align: center;
+}
+#smart-phones{
+    margin-top: 30px;
+    height: 40px;
+    width: 40%;
+    background-color:rgb(66, 53, 56);
+    color: white;
+}
+#smart-phones>h1{
+    margin-left: 30px;
 }
