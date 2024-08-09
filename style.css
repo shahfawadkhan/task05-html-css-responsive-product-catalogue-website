@@ -261,3 +261,25 @@ width: 50%;
     color: white;
     text-align: center;
 }
+
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #efeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icons{
+    height: fit-content;
+    font-size: 2rem;
+}
+.copyright{
+    margin-top: 0;
+}
+.copyright>h4{
+    color: grey;
+    margin-top: 10px;
+}
