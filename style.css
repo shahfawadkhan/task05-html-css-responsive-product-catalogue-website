@@ -168,6 +168,10 @@
     /* justify-content: space-between; */
     align-items: center;
 }
+.smart-phone-box>img:hover{
+    transform: scale(1.03);
+    transition-duration: 1s;
+}
 .spb{
     /* background-color: rgb(112, 6, 28); */
     background-color: #4169E1;
@@ -208,6 +212,10 @@
     /* border: 1px solid black; */
     margin: 0% auto;
     display: block;
+}
+.laptop>img:hover{
+    transform: scale(1.05);
+    transition-duration: 1s;
 }
 #laptop-trend{
     width: 130px;
@@ -251,6 +259,10 @@
     justify-content: space-between;
     gap: 5px;
     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
+}
+.smart-watch-box:hover{
+    /* transform: translateX(4px); */
+    transform: translate3d(2px , -2px , 10px);
 }
 
 .smart-watch-info{
