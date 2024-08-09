@@ -64,20 +64,30 @@
 }
 
 .hero-section {
-    margin-top: 20px;
+    margin-top: 100px;
     width: 100%;
-    height: 200px;
+    height: fit-content;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .all-categ {
     width: 25%;
-    height: 100%;
+    height: 200px;
     margin-left: 10px;
     background-color: darkblue;
 }
-
+@media(max-width:400px){
+    .hero-section{
+        justify-content: left;
+    }
+    .all-categ{
+        width: 100%;
+        margin-left: 0;
+    }
+   
+}
 .all-categ > ul {
     margin-left: 20px;
 }
@@ -109,7 +119,7 @@
     margin-left: 30px;
     width: 70%;
     height: 100%;
-    background-color: black;
+    box-sizing: border-box; 
 }
 
 .laptop-image {
@@ -131,6 +141,8 @@
     letter-spacing: 10px;
     text-align: center;
 }
+
+
 
 #smart-phones {
     margin-top: 30px;
@@ -294,4 +306,23 @@ footer {
 .copyright > h4 {
     color: grey;
     margin-top: 10px;
+}
+@media (max-width: 400px) {
+    .box2 {
+        width: 100%; /* Adjust width for smaller viewports */
+        margin-top: 10px; 
+        margin-left: 0;
+    }
+    .digital-glory > h3{
+        letter-spacing: 0px;
+    }
+    #smart-phones{
+        width: 100%;
+    }
+    .smart-phones-section {
+        gap: 15px;
+    }
+.smart-watch-box {
+    justify-content: space-around;
+}
 }
