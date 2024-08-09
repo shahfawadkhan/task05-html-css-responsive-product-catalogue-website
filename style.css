@@ -241,7 +241,7 @@
     flex-wrap: wrap;
     gap: 30px;
 }
-.smart-watch-box{
+.smart-watch-box {
     width: 450px;
     height: 200px;
     /* border: 1px solid black; */
@@ -250,10 +250,11 @@
     align-items: center;
     justify-content: space-between;
     gap: 5px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.5);
 }
+
 .smart-watch-info{
 width: 50%;
-border-right: 1px solid black;
 }
 .smart-watch-info>h2{
     background-color: #4169E1;
