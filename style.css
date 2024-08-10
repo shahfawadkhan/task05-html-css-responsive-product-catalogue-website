@@ -9,7 +9,7 @@
     width: 100%;
     height: 80px;
     /* background-color: rgb(5, 5, 24); */
-    background-color: #151f3b;
+    background-color: black;
     display: flex;
     justify-content: space-evenly;
     position: fixed;
@@ -76,7 +76,8 @@
     width: 25%;
     height: 200px;
     margin-left: 10px;
-    background-color: darkblue;
+    /* background-color: darkblue; */
+    background-color: #C0C0C0;
 }
 
 .all-categ > ul {
@@ -101,7 +102,7 @@
 
 .all-categ > ul > li > a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: large;
     font-weight: bolder;
 }
@@ -116,14 +117,17 @@
 .laptop-image {
     position: relative;
 }
+.laptop-image >img{
+    background-color: #C0C0C0;
+}
 
 .digital-glory {
     position: absolute;
     width: 100%;
     height: 25px;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     opacity: 0.8;
-    top: 44%;
+    bottom: 0;
 }
 
 .digital-glory > h3 {
@@ -131,6 +135,8 @@
     opacity: 1;
     letter-spacing: 10px;
     text-align: center;
+    background-color: black;
+    /* opacity: .6; */
 }
 
 
